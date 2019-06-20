@@ -243,6 +243,14 @@ section.download .badges .badge-link img {
   }
 }
 
+section.features {
+  background: url("../img/bg-pattern.png"), #9B77AC;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #9B77AC, #D8646B);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #9B77AC, #D8646B);
+  color: white;
+}
+
+
 section.features .section-heading {
   margin-bottom: 100px;
 }
@@ -288,7 +296,7 @@ section.features .feature-item i {
   background: -webkit-linear-gradient(to left, #9B77AC, #D8646B);
   background: linear-gradient(to left, #9B77AC, #D8646B);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
 }
 
 section.cta {
@@ -386,6 +394,12 @@ footer {
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
   background-color: #222222;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
 }
 
 footer p {
@@ -407,9 +421,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: white !important;
 }
 
 .text-primary {
